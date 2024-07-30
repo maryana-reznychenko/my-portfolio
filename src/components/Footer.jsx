@@ -5,7 +5,7 @@ import Facebook from "../assets/img/icons/Facebook.svg";
 
 function Footer() {
   return (
-    <footer className="flex  items-center justify-end py-6 px-16 mt-auto ">
+    <footer className="flex justify-end py-6 px-5 lg:px-16  mt-auto ">
       <address>
         <ul className="flex gap-5 ">
           <li>
