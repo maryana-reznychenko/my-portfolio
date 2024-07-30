@@ -19,6 +19,7 @@ function ButtonCV() {
         initial={{ opacity: 0.2 }}
         whileInView={{
           opacity: 1,
+          scale: 1.05,
           transition: { duration: 1, delay: 0.2 },
           boxShadow: "0px 0px 8px rgb(33, 33, 33)",
         }}
