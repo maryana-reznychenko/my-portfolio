@@ -9,6 +9,6 @@ My Portfolio Site is here: [Maryanas Portfolio](#my-portfolio)
 ## Tech for this portfolio:
 
 - Rect + Vite as a template;
-- Tailwind for styling;
+- CSS + Tailwind for styling;
 - Framer motion from React for animations;
 - Netlify as a deployed environment.
