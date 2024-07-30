@@ -2,7 +2,7 @@
 
  Here collected and showcased the group and individual projects I built during my education at Hyper Island School s.y.2023/2024.
 
-My Portfolio Site is here: [Maryanas Portfolio](#my-portfolio)
+My Portfolio Site is here: [Maryanas Portfolio](https://maryanas.netlify.app/)
 
 ![A screenshot from the portfolio](/src/assets/img/photo/pic_for_readme.webp)
 
