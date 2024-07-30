@@ -1,0 +1,41 @@
+.link_hover {
+  position: relative;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.link_hover::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background-color: #a1001b;
+  z-index: -1;
+  transition: width 0.3s ease-in-out;
+}
+.link_hover:hover {
+  color: #f9f9f9;
+}
+
+.link_hover:hover::before {
+  width: 100%;
+}
+
+/*- - - - - - - - - - -*/
+/* a {
+  position: relative;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2.5px;
+  left: 0;
+  background-color: #a1001b;
+  transition: width 0.3s ease-in-out;
+}
+
+a:hover::after {
+  width: 100%;
+} */

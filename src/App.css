@@ -1,0 +1,7 @@
+/* Reset for pushing the site footer to the bottom: */
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

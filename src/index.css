@@ -1,0 +1,54 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  h1 {
+    @apply font-montserrat font-medium  tracking-wider text-2xl sm:text-3xl uppercase text-center mt-6 mb-10;
+  }
+  h2 {
+    @apply font-montserrat tracking-wider text-base sm:text-xl uppercase mb-5;
+  }
+  h3 {
+    @apply font-montserrat font-medium tracking-wider text-2xl sm:text-3xl uppercase text-center mt-6 mb-10;
+  }
+  h4 {
+    @apply font-montserrat font-medium tracking-wider text-lg sm:text-xl uppercase text-center mt-6 mb-5;
+  }
+  p {
+    @apply font-montserrat text-base sm:text-xl pt-5;
+  }
+}
+
+/* Defolt style*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(249, 249, 249);
+  padding-top: 5rem;
+  color: #1f1f1f;
+}
+
+ul,
+li {
+  list-style: none;
+  margin-bottom: 0.25em;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
