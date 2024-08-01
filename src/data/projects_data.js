@@ -1,5 +1,5 @@
 
-import project_0 from "../assets/img/project_cover_images/project_0.jpg"
+import project_0 from "../assets/img/project_cover_images/project_0.webp"
 import project_1 from "../assets/img/project_cover_images/project_1.webp"
 import project_2 from "../assets/img/project_cover_images/project_2.webp"
 import project_3 from "../assets/img/project_cover_images/project_3.webp"
