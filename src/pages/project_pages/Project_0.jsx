@@ -27,7 +27,7 @@ const Project_0 = () => {
         <img
           src={project.image}
           alt={project.alt}
-          className="lg:h-[400px] m-auto min-h-[50%] "
+          className="lg:h-[400px] lg:w-[600px] m-auto min-h-[50%] "
         />
 
         <div className="flex flex-col lg:flex-row lg:gap-12 mt-12 ">
@@ -62,7 +62,7 @@ const Project_0 = () => {
           <img
             src={image_2_project_0}
             alt={project.alt}
-            className="lg:w-1/2 min-h-[50%] "
+            className="lg:h-[400px] lg:w-1/2 min-h-[50%] "
           />
 
           <section>
@@ -115,7 +115,7 @@ const Project_0 = () => {
           <img
             src={image_1_project_0}
             alt={project.alt}
-            className="object-cover m-auto lg:w-1/2 rounded-2xl "
+            className="lg:h-[300px] lg:w-1/2 m-auto object-cover rounded-2xl "
           />
         </div>
         <section className="mb-12">

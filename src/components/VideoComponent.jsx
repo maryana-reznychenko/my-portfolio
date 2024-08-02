@@ -17,7 +17,11 @@ const VideoComponent = () => {
 
   return (
     <div className="relative w-[85%] lg:w-2/3 h-auto flex justify-center m-auto font-montserrat text-white">
-      <video ref={videoRef} src={contact_video} className="w-full h-auto" />
+      <video
+        ref={videoRef}
+        src={contact_video}
+        className="lg:w-[1000px] lg:h-auto"
+      />
       <div
         className="absolute inset-0 flex justify-start cursor-pointer ml-5 mt-5"
         onClick={handlePlayPause}

@@ -12,9 +12,9 @@ const HeroSection = () => {
       <div className="flex flex-col lg:flex-row items-center justify-around gap-10 lg:gap-0 ">
         <div className="flex-1 max-w-[85%] lg:max-w-[50%]">
           <img
-            className="w-fit-content lg:w-[80%] m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
+            className="lg:h-[600px] lg:w-auto m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
             src={hero_photo}
-            alt="Maryana's height photo where she smiles while opening the door"
+            alt="Photo where Maryana smiles and were an orange shirt"
           />
         </div>
         <div className="flex-1 max-w-[85%] lg:max-w-[50%]">

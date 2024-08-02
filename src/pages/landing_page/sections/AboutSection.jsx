@@ -35,7 +35,7 @@ const AboutSection = () => {
         </div>
         <div className="flex-1 max-w-[85%] lg:max-w-[50%]">
           <img
-            className="w-fit-content lg:w-[70%] m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
+            className="lg:h-[600px] lg:w-[auto] m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
             src={about_photo}
             alt="Maryana's photo"
           />
