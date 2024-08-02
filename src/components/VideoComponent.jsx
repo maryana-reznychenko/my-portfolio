@@ -20,6 +20,9 @@ const VideoComponent = () => {
       <video
         ref={videoRef}
         src={contact_video}
+        width="300"
+        height="200"
+        // controls
         className="lg:w-[1000px] lg:h-auto"
       />
       <div
