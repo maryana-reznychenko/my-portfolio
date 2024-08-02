@@ -15,10 +15,10 @@ const HeroSection = () => {
         <LazyLoadImage
           src={hero_photo}
           alt="Photo where Maryana smiles and wears an orange shirt"
-          width="300"
+          width="350"
           height="500"
           loading="lazy"
-          className="lg:h-[600px] lg:w-auto m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
+          className=" m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
         />
 
         <div className="flex-1 max-w-[85%] lg:max-w-[50%]">

@@ -38,10 +38,10 @@ const AboutSection = () => {
         <LazyLoadImage
           src={about_photo}
           alt="Maryana's photo"
-          width="300"
+          width="350"
           height="500"
           loading="lazy"
-          className="lg:h-[600px] lg:w-[auto] m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
+          className=" m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
         />
       </div>
       <div className="flex justify-center pt-16">
