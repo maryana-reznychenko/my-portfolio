@@ -1,3 +1,4 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import SectionDivider from "../../../components/SectionsDivider";
 import about_photo from "../../../assets/img/photo/about_photo.webp";
 import ButtonCV from "../../../components/ButtonCV";
@@ -34,10 +35,13 @@ const AboutSection = () => {
           </p>
         </div>
         <div className="flex-1 max-w-[85%] lg:max-w-[50%]">
-          <img
-            className="lg:h-[600px] lg:w-[auto] m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
+          <LazyLoadImage
             src={about_photo}
             alt="Maryana's photo"
+            width="300"
+            height="500"
+            loading="lazy"
+            className="lg:h-[600px] lg:w-[auto] m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
           />
         </div>
       </div>

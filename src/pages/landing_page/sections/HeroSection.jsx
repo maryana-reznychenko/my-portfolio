@@ -1,9 +1,11 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 import SectionDivider from "../../../components/SectionsDivider";
 import hero_photo from "../../../assets/img/photo/hero_photo.webp";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="py-10 lg:h-screen">
+    <section id="home" className="py-10">
       <SectionDivider />
       <h1>
         front end developer <br />
@@ -11,10 +13,13 @@ const HeroSection = () => {
       </h1>
       <div className="flex flex-col lg:flex-row items-center justify-around gap-10 m-auto">
         <div className="flex-1 max-w-[85%] lg:max-w-[50%]">
-          <img
-            className="lg:h-[600px] lg:w-auto m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
+          <LazyLoadImage
             src={hero_photo}
-            alt="Photo where Maryana smiles and were an orange shirt"
+            alt="Photo where Maryana smiles and wears an orange shirt"
+            width="300"
+            height="500"
+            loading="lazy"
+            className="lg:h-[600px] lg:w-auto m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
           />
         </div>
         <div className="flex-1 max-w-[85%] lg:max-w-[50%]">
