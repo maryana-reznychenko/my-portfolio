@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import ProjectsProvider from "./helpers/ProjectsContext";
+import ScrollToTop from "./helpers/ScrollToTop";
 
 import LandingPage from "./pages/landing_page/LandingPage";
 import Footer from "./components/Footer";
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       <ProjectsProvider>
         <BrowserRouter>
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/project/is-it-only-me" element={<Project_0 />} />

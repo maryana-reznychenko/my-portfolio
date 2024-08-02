@@ -4,7 +4,7 @@
 
 @layer base {
   h1 {
-    @apply font-montserrat font-medium  tracking-wider text-2xl sm:text-3xl uppercase text-center mt-6 mb-10;
+    @apply font-montserrat font-medium  tracking-wider text-2xl sm:text-3xl uppercase text-center mt-10 mb-14;
   }
   h2 {
     @apply font-montserrat tracking-wider text-base sm:text-xl uppercase mb-5;
@@ -28,7 +28,6 @@
 
 html {
   scroll-padding-top: 5rem;
-  scroll-behavior: smooth;
 }
 
 body {

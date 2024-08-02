@@ -5,7 +5,7 @@ const Project_2 = () => {
   return (
     <article>
       <HeaderForTheProjectPage />
-      <div className="mx-auto w-[95%] lg:w-[75%] pt-20">
+      <div className="mx-auto w-[95%] lg:w-[75%] pt-10">
         <SectionDivider />
         <h1>More information about this project is coming soon. </h1>
       </div>

@@ -3,13 +3,13 @@ import hero_photo from "../../../assets/img/photo/hero_photo.webp";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="py-10">
+    <section id="home" className="py-10 lg:h-screen">
       <SectionDivider />
       <h1>
         front end developer <br />
         with ux/ui skills
       </h1>
-      <div className="flex flex-col lg:flex-row items-center justify-around gap-10 lg:gap-0 ">
+      <div className="flex flex-col lg:flex-row items-center justify-around gap-10 m-auto">
         <div className="flex-1 max-w-[85%] lg:max-w-[50%]">
           <img
             className="lg:h-[600px] lg:w-auto m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "

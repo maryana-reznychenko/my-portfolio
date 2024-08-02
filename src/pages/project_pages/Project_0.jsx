@@ -12,15 +12,10 @@ const Project_0 = () => {
   const { projects } = useContext(ProjectsContext);
   const project = projects.find((p) => p.slug === "is-it-only-me");
 
-  //- - - To open page from the top of it, instead usual browser behaviour for SPA- - -
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "auto" });
-  }, []);
-
   return (
     <div>
       <HeaderForTheProjectPage />
-      <article className="mx-auto w-[90%] lg:w-[75%] pt-20">
+      <article className="mx-auto w-[90%] lg:w-[75%] pt-10">
         <SectionDivider />
         <h1>{project.title}</h1>
 

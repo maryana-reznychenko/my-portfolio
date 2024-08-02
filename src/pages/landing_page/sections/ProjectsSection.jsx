@@ -21,7 +21,7 @@ const ProjectsSection = () => {
             <img
               src={project.image}
               alt={project.alt}
-              className="h-[250px] w-auto object-cover shadow-lg shadow-[#7A7A7A]/10 rounded"
+              className="lg:h-[250px] w-auto object-cover shadow-lg shadow-[#7A7A7A]/10 rounded"
             />
             <div className="p-4 text-center flex flex-col flex-1">
               <h4>{project.title}</h4>
