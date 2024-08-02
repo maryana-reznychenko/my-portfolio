@@ -11,10 +11,10 @@ const HeroSection = () => {
         front end developer <br />
         with ux/ui skills
       </h1>
-      <div className="flex flex-col lg:flex-row items-center justify-around gap-10 m-auto">
+      <div className="flex flex-col lg:flex-row items-center justify-around gap-10 lg:gap-0 m-auto">
         {/* <div> as placeholder for CLS in Lighthouse */}
         <div className="w-[300px] h-[400px] bg-background  m-auto">
-          <image
+          <img
             src={hero_photo}
             alt="Photo where Maryana smiles and wears an orange shirt"
             width="300"
