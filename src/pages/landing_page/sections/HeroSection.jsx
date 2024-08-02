@@ -5,7 +5,7 @@ import hero_photo from "../../../assets/img/photo/hero_photo.webp";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="py-10">
+    <section id="home" className="lg:py-10">
       <SectionDivider />
       <h1>
         front end developer <br />

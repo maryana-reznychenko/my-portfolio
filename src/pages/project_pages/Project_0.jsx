@@ -15,7 +15,7 @@ const Project_0 = () => {
   return (
     <div>
       <HeaderForTheProjectPage />
-      <article className="mx-auto w-[90%] lg:w-[75%] pt-10">
+      <article className="mx-auto w-[90%] lg:w-[75%] lg:pt-10">
         <SectionDivider />
         <h1>{project.title}</h1>
 
