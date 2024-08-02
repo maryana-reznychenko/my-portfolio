@@ -34,15 +34,17 @@ const AboutSection = () => {
             I envision myself as a Fullstack developer.
           </p>
         </div>
-
-        <LazyLoadImage
-          src={about_photo}
-          alt="Maryana's photo"
-          width="350"
-          height="500"
-          loading="lazy"
-          className=" m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
-        />
+        {/* <div> as placeholder for CLS in Lighthouse */}
+        <div className="w-[300px] h-[400px] bg-background">
+          <LazyLoadImage
+            src={about_photo}
+            alt="Maryana's photo"
+            width="300"
+            height="400"
+            loading="lazy"
+            className=" m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
+          />
+        </div>
       </div>
       <div className="flex justify-center pt-16">
         <ButtonCV />
