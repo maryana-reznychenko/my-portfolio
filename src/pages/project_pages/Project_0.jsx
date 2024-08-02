@@ -14,7 +14,7 @@ const Project_0 = () => {
 
   //- - - To open page from the top of it, instead usual browser behaviour for SPA- - -
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: 0, behavior: "auto" });
   }, []);
 
   return (
