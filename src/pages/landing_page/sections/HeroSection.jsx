@@ -12,16 +12,15 @@ const HeroSection = () => {
         with ux/ui skills
       </h1>
       <div className="flex flex-col lg:flex-row items-center justify-around gap-10 m-auto">
-        <div className="flex-1 max-w-[85%] lg:max-w-[50%]">
-          <LazyLoadImage
-            src={hero_photo}
-            alt="Photo where Maryana smiles and wears an orange shirt"
-            width="300"
-            height="500"
-            loading="lazy"
-            className="lg:h-[600px] lg:w-auto m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
-          />
-        </div>
+        <LazyLoadImage
+          src={hero_photo}
+          alt="Photo where Maryana smiles and wears an orange shirt"
+          width="300"
+          height="500"
+          loading="lazy"
+          className="lg:h-[600px] lg:w-auto m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
+        />
+
         <div className="flex-1 max-w-[85%] lg:max-w-[50%]">
           <h2 className="leading-relaxed">
             HELLO! <br /> I AM <span className="font-bold">MARYANA</span>,

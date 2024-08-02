@@ -34,16 +34,15 @@ const AboutSection = () => {
             I envision myself as a Fullstack developer.
           </p>
         </div>
-        <div className="flex-1 max-w-[85%] lg:max-w-[50%]">
-          <LazyLoadImage
-            src={about_photo}
-            alt="Maryana's photo"
-            width="300"
-            height="500"
-            loading="lazy"
-            className="lg:h-[600px] lg:w-[auto] m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
-          />
-        </div>
+
+        <LazyLoadImage
+          src={about_photo}
+          alt="Maryana's photo"
+          width="300"
+          height="500"
+          loading="lazy"
+          className="lg:h-[600px] lg:w-[auto] m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
+        />
       </div>
       <div className="flex justify-center pt-16">
         <ButtonCV />
