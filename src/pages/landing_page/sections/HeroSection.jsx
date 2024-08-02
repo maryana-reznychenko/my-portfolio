@@ -1,4 +1,4 @@
-import { LazyLoadImage } from "react-lazy-load-image-component";
+// import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import SectionDivider from "../../../components/SectionsDivider";
 import hero_photo from "../../../assets/img/photo/hero_photo.webp";
@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="flex flex-col lg:flex-row items-center justify-around gap-10 m-auto">
         {/* <div> as placeholder for CLS in Lighthouse */}
         <div className="w-[300px] h-[400px] bg-background  m-auto">
-          <LazyLoadImage
+          <image
             src={hero_photo}
             alt="Photo where Maryana smiles and wears an orange shirt"
             width="300"
