@@ -9,7 +9,7 @@ const AboutSection = () => {
       <SectionDivider />
       <h3>about me</h3>
 
-      <div className="flex flex-col lg:flex-row items-center justify-around gap-10 lg:gap-0 m-auto">
+      <div className="flex flex-col lg:flex-row items-center justify-around gap-10  m-auto">
         <div className="flex-1 max-w-[85%] lg:max-w-[50%]">
           <h4 className="mt-0 font-normal">
             let me <span className="font-bold">introduce</span> myself
@@ -42,7 +42,7 @@ const AboutSection = () => {
             width="300"
             height="400"
             loading="lazy"
-            className="lg:h-auto lg:w-[400px] m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
+            className="lg:h-[533px] lg:w-[400px] m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
           />
         </div>
       </div>

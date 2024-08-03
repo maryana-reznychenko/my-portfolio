@@ -9,7 +9,7 @@ const HeroSection = () => {
         front end developer <br />
         with ux/ui skills
       </h1>
-      <div className="flex flex-col lg:flex-row items-center justify-around gap-10 lg:gap-0 m-auto">
+      <div className="flex flex-col lg:flex-row items-center justify-around gap-10 m-auto">
         {/* <div> as placeholder for CLS in Lighthouse */}
         <div className="w-auto h-auto bg-background  m-auto">
           <img
@@ -17,7 +17,7 @@ const HeroSection = () => {
             alt="Photo where Maryana smiles and wears an orange shirt"
             width="300"
             height="400"
-            className=" lg:h-auto lg:w-[400px] m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
+            className=" lg:h-[533px] lg:w-[400px] m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
           />
         </div>
         <div className="flex-1 max-w-[85%] lg:max-w-[50%]">
