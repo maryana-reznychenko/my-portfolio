@@ -35,14 +35,14 @@ const AboutSection = () => {
           </p>
         </div>
         {/* <div> as placeholder for CLS in Lighthouse */}
-        <div className="w-[300px] h-[400px] bg-background">
+        <div className="w-auto h-auto bg-background">
           <LazyLoadImage
             src={about_photo}
             alt="Maryana's photo"
             width="300"
             height="400"
             loading="lazy"
-            className=" m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
+            className="lg:h-auto lg:w-[400px] m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
           />
         </div>
       </div>
