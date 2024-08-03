@@ -1,5 +1,3 @@
-// import { LazyLoadImage } from "react-lazy-load-image-component";
-
 import SectionDivider from "../../../components/SectionsDivider";
 import hero_photo from "../../../assets/img/photo/hero_photo.webp";
 
@@ -19,7 +17,6 @@ const HeroSection = () => {
             alt="Photo where Maryana smiles and wears an orange shirt"
             width="300"
             height="400"
-            loading="lazy"
             className=" m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
           />
         </div>

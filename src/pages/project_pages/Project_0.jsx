@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import { ProjectsContext } from "../../helpers/ProjectsContext";
 import image_1_project_0 from "../../assets/img/projects_images/project_0/image_1_project_0.svg";
@@ -18,13 +19,15 @@ const Project_0 = () => {
       <article className="mx-auto w-[90%] lg:w-[75%] lg:pt-10">
         <SectionDivider />
         <h1>{project.title}</h1>
-
-        <img
-          src={project.image}
-          alt={project.alt}
-          className="lg:h-[400px] lg:w-[600px] m-auto min-h-[50%] "
-        />
-
+        <div className="w-auto h-auto owerflow-hidden">
+          <img
+            src={project.image}
+            alt={project.alt}
+            height="200"
+            width="355"
+            className="lg:h-[400px] lg:w-[600px] m-auto min-h-[50%] "
+          />
+        </div>
         <div className="flex flex-col lg:flex-row lg:gap-12 mt-12 ">
           <section className=" lg:w-1/2 mb-12 ">
             <h2>Idea</h2>
@@ -54,11 +57,16 @@ const Project_0 = () => {
           </section>
         </div>
         <div className="flex flex-col lg:flex-row mt-12 mb-12 gap-12 ">
-          <img
-            src={image_2_project_0}
-            alt={project.alt}
-            className="lg:h-[400px] lg:w-1/2 min-h-[50%] "
-          />
+          <div className="w-auto h-auto owerflow-hidden">
+            <LazyLoadImage
+              src={image_2_project_0}
+              alt={project.alt}
+              height="200"
+              width="355"
+              loading="lazy"
+              className="lg:h-[400px] lg:w-[auto] min-h-[50%] "
+            />
+          </div>
 
           <section>
             <h2>Tools & Tech</h2>
@@ -86,7 +94,7 @@ const Project_0 = () => {
             </div>
           </section>
         </div>
-        <div className="flex flex-col lg:flex-row mt-12 mb-12 gap-12 ">
+        <div className="flex flex-col lg:flex-row mt-12 mb-12 lg:gap-12 ">
           <section className=" lg:w-1/2 mb-12">
             <h2>My Own Learnings:</h2>
             <p>
@@ -106,12 +114,16 @@ const Project_0 = () => {
               with a really good team - is possible!
             </p>
           </section>
-
-          <img
-            src={image_1_project_0}
-            alt={project.alt}
-            className="lg:h-[300px] lg:w-1/2 m-auto object-cover rounded-2xl "
-          />
+          <div className="w-auto h-auto m-auto owerflow-hidden">
+            <LazyLoadImage
+              src={image_1_project_0}
+              alt={project.alt}
+              height="200"
+              width="355"
+              loading="lazy"
+              className="lg:h-[300px] lg:w-[auto] m-auto object-cover rounded-2xl "
+            />
+          </div>
         </div>
         <section className="mb-12">
           <h2>this project on:</h2>
