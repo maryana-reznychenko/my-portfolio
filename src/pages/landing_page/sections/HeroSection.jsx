@@ -7,7 +7,7 @@ const HeroSection = () => {
       <SectionDivider />
       <h1>
         front end developer <br />
-        with ux/ui skills
+        with ux-ui skills
       </h1>
       <div className="flex flex-col lg:flex-row items-center justify-around gap-10 m-auto">
         {/* <div> as placeholder for CLS in Lighthouse */}
