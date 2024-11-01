@@ -1,7 +1,6 @@
 import MailTo from "../assets/img/icons/MailTo.svg";
 import GitHub from "../assets/img/icons/GitHub.svg";
 import LinkedIn from "../assets/img/icons/LinkedIn.svg";
-import Facebook from "../assets/img/icons/Facebook.svg";
 
 function Footer() {
   return (
@@ -41,15 +40,6 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img className="h-8 w-8" src={LinkedIn} alt="LinkedIn Logo"></img>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/profile.php?id=100006668104169"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="h-8 w-8" src={Facebook} alt="Facebook Logo"></img>
             </a>
           </li>
         </ul>
