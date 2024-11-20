@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import ProjectsProvider from "./helpers/ProjectsContext";
 import ScrollToTop from "./helpers/ScrollToTop";
@@ -18,22 +18,20 @@ function App() {
   return (
     <div className="App">
       <ProjectsProvider>
-        <BrowserRouter>
-          <ScrollToTop />
-          <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/project/is-it-only-me" element={<Project_0 />} />
-            <Route path="/project/ksss-history" element={<Project_1 />} />
-            <Route path="/project/taskify" element={<Project_2 />} />
-            <Route path="/project/plant-butlers" element={<Project_3 />} />
-            <Route path="/project/gues-the-sun-card" element={<Project_4 />} />
-            <Route
-              path="/project/the-90s-inspiration-site"
-              element={<Project_5 />}
-            />
-          </Routes>
-          <Footer />
-        </BrowserRouter>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/project/is-it-only-me" element={<Project_0 />} />
+          <Route path="/project/ksss-history" element={<Project_1 />} />
+          <Route path="/project/taskify" element={<Project_2 />} />
+          <Route path="/project/plant-butlers" element={<Project_3 />} />
+          <Route path="/project/gues-the-sun-card" element={<Project_4 />} />
+          <Route
+            path="/project/the-90s-inspiration-site"
+            element={<Project_5 />}
+          />
+        </Routes>
+        <Footer />
       </ProjectsProvider>
     </div>
   );
