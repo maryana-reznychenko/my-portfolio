@@ -14,7 +14,7 @@ const HeroSection = () => {
         <div className="w-auto h-auto bg-background  m-auto">
           <img
             src={hero_photo}
-            alt="Photo where Maryana smiles and wears an orange shirt"
+            alt="Photo where Marianna smiles and wears an orange shirt"
             width="300"
             height="400"
             className=" lg:h-[533px] lg:w-[400px] m-auto object-cover shadow-lg shadow-[#C22A29]/50 rounded "
@@ -22,7 +22,7 @@ const HeroSection = () => {
         </div>
         <div className="flex-1 max-w-[85%] lg:max-w-[50%]">
           <h2 className="leading-relaxed">
-            HELLO! <br /> I AM <span className="font-bold">MARYANA</span>,
+            HELLO! <br /> I AM <span className="font-bold">MARIANNA</span>,
           </h2>
           <p>
             a solution-oriented Front-end Developer with UX-UI skills. <br />I
