@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 function ButtonCV() {
   const handleButtonClick = () => {
     window.open(
-      "https://drive.google.com/file/d/19gqpg29mP88afy_H383vS1EYc03aEJ3E/view?usp=sharing"
+      "https://drive.google.com/file/d/1T43MpDVwd97ErA2m2qTWAPlN-1P5hF-b/view?usp=drive_link"
     );
   };
 
