@@ -124,7 +124,7 @@ const Header = () => {
           <li className={styles.link_hover}>
             <a
               className="text-[#A1001B] font-bold hover:text-[#f9f9f9]"
-              href="https://drive.google.com/file/d/19gqpg29mP88afy_H383vS1EYc03aEJ3E/view?usp=sharing"
+              href="https://drive.google.com/file/d/1T43MpDVwd97ErA2m2qTWAPlN-1P5hF-b/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
