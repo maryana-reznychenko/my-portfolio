@@ -35,7 +35,7 @@ function Footer() {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/maryana-reznychenko-255666154/"
+              href="https://www.linkedin.com/in/marianna-reznychenko-255666154/"
               target="_blank"
               rel="noopener noreferrer"
             >
