@@ -1,6 +1,6 @@
 
-import project_0 from "../assets/img/project_cover_images/project_0.webp"
 import project_1 from "../assets/img/project_cover_images/project_1.webp"
+import project_0 from "../assets/img/project_cover_images/project_0.webp"
 import project_2 from "../assets/img/project_cover_images/project_2.webp"
 import project_3 from "../assets/img/project_cover_images/project_3.webp"
 import project_4 from "../assets/img/project_cover_images/project_4.webp"
@@ -11,9 +11,20 @@ import project_5 from "../assets/img/project_cover_images/project_5.webp"
 export const PROJECTS =
   [
     {
+      "id": 1,
+      "image": project_1,
+      "alt": "The image of the KSSS flag fluttering in the wind in front of a water.",
+      "title": "KSSS history",
+      "intro": "The project aimed to display the Royal Swedish Yacht Club's (KSSS) history which started in 1830.\rThe most important events of the KSSS life presents in a timeline.",
+      "link_to_github": "https://github.com/maryana-reznychenko/ksss-history-fullstack",
+      "link_to_live": "https://ksss-historia.vercel.app/",
+      "slug": "ksss-history"
+
+    },
+    {
       "id": 0,
       "image": project_0,
-      "alt": "the cover image of the project",
+      "alt": "The image of telephone with Is It Only Me? game on the it display and a qr-code for the game.",
       "title": "Is It Only Me?",
       "intro": "A webb app for mobile that can be used for AW activities, as the  'ice breaker', or just only when you want to have fun with friends!",
       "link_to_github": "https://github.com/isitonlyme/is-it-only-me-react?tab=readme-ov-file",
@@ -21,17 +32,7 @@ export const PROJECTS =
       "slug": "is-it-only-me"
 
     },
-    {
-      "id": 1,
-      "image": project_1,
-      "alt": "the cover image of the project",
-      "title": "KSSS history",
-      "intro": "The project aimed to display the Royal Swedish Yacht Club's (KSSS) history which started in 1830.\rThe historical timeline should present the most important events of the Yacht Club's life.",
-      "link_to_github": "",
-      "link_to_live": "",
-      "slug": "ksss-history"
 
-    },
     {
       "id": 2,
       "image": project_2,

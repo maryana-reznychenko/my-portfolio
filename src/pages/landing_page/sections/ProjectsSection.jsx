@@ -20,8 +20,8 @@ const ProjectsSection = () => {
             key={project.id}
             className="py-3 md:p-3 bg-white border border-[#e9e8e8] rounded-lg shadow-lg flex flex-col h-full "
           >
-            {/* <div> as placeholder for CLS in Lighthouse */}
-            <div className="w-auto h-auto owerflow-hidden">
+            {/* <figure> as placeholder for CLS in Lighthouse */}
+            <figure className="w-auto h-auto owerflow-hidden">
               <LazyLoadImage
                 src={project.image}
                 alt={project.alt}
@@ -30,7 +30,7 @@ const ProjectsSection = () => {
                 loading="lazy"
                 className="lg:h-[250px] w-auto object-cover shadow-lg shadow-[#7A7A7A]/10 rounded"
               />
-            </div>
+            </figure>
             <div className="p-4 text-center flex flex-col flex-1">
               <h4>{project.title}</h4>
 

@@ -25,7 +25,7 @@ const LandingPage = () => {
   }, [location]);
 
   return (
-    <div>
+    <>
       <Header />
       <main className="mx-auto w-[95%] lg:w-[75%]">
         <HeroSection />
@@ -34,7 +34,7 @@ const LandingPage = () => {
         <SkillsSection />
         <ContactSection />
       </main>
-    </div>
+    </>
   );
 };
 export default LandingPage;
